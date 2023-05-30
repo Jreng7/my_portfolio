@@ -13,19 +13,19 @@ nav {
   justify-content: space-between;
 }
 
-.navbar_links > li {
+ul > li {
   display: inline-block;
 }
 
-.navbar_links >li:not(:last-of-type) {
+ul >li:not(:last-of-type) {
   margin-right: 2rem;
 }
 
-.navbar_links li > a {
+ul li > a {
   display: inline-block;
   padding: 1rem;
 }
 
-.navbar_links li > a:hover {
+ul li > a:hover {
   color: var(--tertiary-color);
 }
